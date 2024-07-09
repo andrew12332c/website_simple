@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Andrew Zhang's Power BI Dashboards</title>
+    <title>Andrew Zhang's Tableau Dashboards</title>
     <style>
         body {
             margin: 0;
@@ -41,13 +41,16 @@
             cursor: pointer;
             border-radius: 5px;
             font-size: 16px;
-            margin-bottom: 10px;
         }
-        .scroll-to-top:hover, .return-home:hover {
+        .scroll-to-top {
+            background-color: #007bff; /* Blue color for the scroll button */
+        }
+        .scroll-to-top:hover {
             background-color: #0056b3;
         }
         .return-home {
             background-color: #28a745; /* Green color for the return button */
+            bottom: 70px; /* Position above the scroll-to-top button */
         }
         .return-home:hover {
             background-color: #218838;
@@ -56,17 +59,17 @@
 </head>
 <body>
     <div class="container">
-        <h1>Power BI Dashboards</h1>
+        <h1>Tableau Dashboards</h1>
 
         <div class="iframe-container">
             <iframe title="Sales Summary" width="1140" height="541.25"
-                src="https://app.powerbi.com/reportEmbed?reportId=4c62a320-c5d1-43b8-b379-7959152df056&appId=52a754c7-b9e5-4811-b862-6c785d87ada7&autoAuth=true&ctid=2d4cb91b-9fb8-4328-bbbc-82b490284165"
+                src="https://public.tableau.com/views/SalesSummary/Dashboard?:embed=y&:display_count=yes"
                 frameborder="0" allowFullScreen="true"></iframe>
         </div>
 
         <div class="iframe-container">
             <iframe title="Safety Dashboard" width="1140" height="541.25"
-                src="https://app.powerbi.com/reportEmbed?reportId=dd5fe8fa-1a24-4532-990d-be619a54a28b&autoAuth=true&embeddedDemo=true"
+                src="https://public.tableau.com/views/SafetyDashboard/Dashboard?:embed=y&:display_count=yes"
                 frameborder="0" allowFullScreen="true"></iframe>
         </div>
 
